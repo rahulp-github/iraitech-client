@@ -24,7 +24,7 @@ export default function Signup() {
         e.preventDefault();
         console.log(userDetails);
         try{
-            let res = await fetch('http://localhost:8080/register', {
+            let res = await fetch('https://iraitech-server.herokuapp.com/register', {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json"

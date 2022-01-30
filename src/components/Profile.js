@@ -6,7 +6,7 @@ export default function Profile() {
 
   async function getUserDetails(){
     const token = localStorage.getItem("token");
-    let user = await fetch("http://localhost:8080/profile",{
+    let user = await fetch("https://iraitech-server.herokuapp.com/profile",{
         method:"GET",
         headers:{
           'Accept': 'application/json',

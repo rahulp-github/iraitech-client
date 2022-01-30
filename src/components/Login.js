@@ -19,7 +19,7 @@ export default function SignIn({handleAuthentication}) {
     async function handleSignin(e){
         e.preventDefault();
         try{
-            let res = await fetch('http://localhost:8080/login',{
+            let res = await fetch('https://iraitech-server.herokuapp.com/login',{
                 method:"POST",
                 headers:{
                     "Content-type":"application/json"
