@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loginBtn{
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.loginBtn:hover{
+  background-color: white;
+  color: black;
+}
+
+.signupPage{
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.list-group{
+  padding: 15px;
+}
+
+.star{
+  color: red;
+}
+
+.signup{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.card-header{
+  text-align: center;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.greeting{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.quickLinks{
+  width: 60%;
+  margin:auto;
+  margin-top: 3%;
+  text-align: center;
+}

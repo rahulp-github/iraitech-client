@@ -1,14 +1,24 @@
 {
   "name": "iraitech-client",
+  "homepage": "https://rahulp-github.github.io/iraitech-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "process": "^0.11.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-jwt": "^1.1.4",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "5.0.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
