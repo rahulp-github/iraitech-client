@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
        <Navbar isAuthenticated={isAuthenticated} handleLogout={handleLogout}/>
-       <Switch>
+       <Switch >
           <Route exact path="/" render={(props) => <Home isAuthenticated={isAuthenticated} handleLogout={handleLogout} username={userName} {...props} />}></Route>
           <Route exact path="/register" component={Register}></Route>
           <Route exact path="/login"  render={(props) => <Login handleAuthentication={handleAuthentication} {...props} />}></Route>
