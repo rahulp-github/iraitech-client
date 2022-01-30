@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iraitech-client/static/css/main.11888b26.css",
-    "main.js": "/iraitech-client/static/js/main.3fbd6295.js",
+    "main.js": "/iraitech-client/static/js/main.f4863b3d.js",
     "index.html": "/iraitech-client/index.html",
     "main.11888b26.css.map": "/iraitech-client/static/css/main.11888b26.css.map",
-    "main.3fbd6295.js.map": "/iraitech-client/static/js/main.3fbd6295.js.map"
+    "main.f4863b3d.js.map": "/iraitech-client/static/js/main.f4863b3d.js.map"
   },
   "entrypoints": [
     "static/css/main.11888b26.css",
-    "static/js/main.3fbd6295.js"
+    "static/js/main.f4863b3d.js"
   ]
 }
